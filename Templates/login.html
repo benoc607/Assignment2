@@ -1,0 +1,16 @@
+<!--Login form display
+    EXAMPLE ONLY - Out of scope-->
+{% extends "base.html" %}
+
+{% block content %}
+<form action="#" method="post">
+  <label>Username:</label><br/>
+  <input type="text" name="userName" placeholder="Username" required/><br/>
+
+  <label>Password:</label><br/>
+  <input type="password" name="userPassword" placeholder="Password" required/><br/>
+
+  <input type="submit" value="submit"/>
+</form><br/>
+<p>default username/password has been set to 'admin'</p>
+{% endblock %}

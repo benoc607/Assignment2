@@ -1,0 +1,6 @@
+the temperature in city
+current humidity in city
+what is the weather like in city
+hello
+hi
+city
